@@ -1,6 +1,6 @@
 /* Write a function findDuplicates(arr) that returns an array of duplicate elements. */
 
-const arr = [1, 5,5,1,2,3,4,4];
+//const arr = [1, 5,5,1,2,3,4,4];
 let duplicateArray = [];
 
 function findDuplicates(arr) {
@@ -12,5 +12,9 @@ function findDuplicates(arr) {
         }
     } return console.log("duplicateArray -> " + duplicateArray + " Non duplicate array -> " + arr);
 }
-
-findDuplicates(arr);
+/* function fibonacci(number) {
+    let sequencia = [];
+    if (number === 0) return 0;
+    if (number === 1) return 1;
+} */
+/* console.info(fibonacci(20));*/
