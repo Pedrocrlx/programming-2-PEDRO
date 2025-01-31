@@ -1,22 +1,16 @@
 /* Write a function findDuplicates(arr) that returns an array of duplicate elements. */
 
-const arr = [1, 2, 3, 3, 5];
+const arr = [1, 5,5,1,2,3,4,4];
 let duplicateArray = [];
 
 function findDuplicates(arr) {
     for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < arr.length; j++) {
+        for (let j = 0; j < i; j++) {
             if (arr[i] === arr[j]) {
-                if (!duplicateArray.includes(arr[i])) {
-                    duplicateArray.push(arr[i]);
-                }
+                duplicateArray.push(arr[i]);
             }
         }
-    } return console.log(duplicateArray);
-} 
-
-function Test(arr) {
-    console.log(arr.length);
+    } return console.log("duplicateArray -> " + duplicateArray + " Non duplicate array -> " + arr);
 }
-Test(arr)
-findDuplicates();
+
+findDuplicates(arr);
