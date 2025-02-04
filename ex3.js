@@ -17,7 +17,7 @@ Output: [0,1]
 function twoSum() {
     let index = {}; // Object to save index as a KEY and numbers as VALUES. 
     const nums = [2, 5, 11, 15]
-    const target = 26;
+    const target = 27;
     let solved = null;
 
     // Loop through the array and create a hash map with index as a KEY and numbers as VALUES.

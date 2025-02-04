@@ -144,9 +144,9 @@ try {
 ### Exercise: CSV to JSON Converter
 
 - Build a script that converts a CSV file to a JSON file.
-Requirements
+Requirements -CHECK-
 
-- Read input.csv with columns: name,email,age.
+- Read input.csv with columns: name,email,age. -CHECK-
 
 - Skip invalid rows (e.g., missing fields, non-numeric age).
 
