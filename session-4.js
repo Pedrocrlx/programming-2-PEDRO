@@ -13,7 +13,7 @@ try {
         const values = row.split(',');
 
         console.log(values);
-        if (values.filter(age === undefined)) {
+        if (isNaN(age)) {
             return null;
         }
 
