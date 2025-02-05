@@ -14,7 +14,7 @@ try {
 
         console.log(values);
         if (values.filter(age === undefined)) {
-            return "Age not defined";
+            return null;
         }
 
         return {
