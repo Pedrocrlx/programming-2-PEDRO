@@ -1,4 +1,4 @@
-const { inflate } = require("zlib");
+const { __inflate } = require("node:zlib");
 
 /* Example 1:
 
@@ -15,15 +15,15 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 */
 function twoSum() {
-    let index = {}; // Object to save index as a KEY and numbers as VALUES. 
+    const index = {}; // Object to save index as a KEY and numbers as VALUES. 
     const nums = [2, 5, 11, 15]
-    const target = 27;
+    const target = 26;
     let solved = null;
 
     // Loop through the array and create a hash map with index as a KEY and numbers as VALUES.
     for (let i = 0; i < nums.length; i++) {
 
-        let findIndex = target - nums[i];
+        const findIndex = target - nums[i];
         if (findIndex in index) {
             console.info([index[findIndex], i]);
         }
@@ -31,7 +31,6 @@ function twoSum() {
         for (let s = 0; s < i; s++) {
             if (nums[i] + nums[s] === target) {
                 solved = nums[s] + nums[i];
-                console.info(`${nums[s]}` + " + " + `${nums[i]}` + ' = ' + solved);
             }
         }
     }
