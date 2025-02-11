@@ -26,6 +26,8 @@ async function fetchWeather(city) {
     }
 }
 
+//testesssss
+
 async function fetchAllWeathers() {
     const CITIES = ["London", "Paris", "Tokyo"];
     const promises = CITIES.map((city) => fetchWeather(city));
