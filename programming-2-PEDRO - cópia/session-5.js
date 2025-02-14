@@ -1,7 +1,4 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c124498734ffd4cc76136f00a53faddc44d34bf5
 const users = [
     { id: 1, name: 'Alice', city: 'Paris' },
     { id: 2, name: 'Bob', city: 'London' },
@@ -18,8 +15,6 @@ userMap.forEach((value, key) => {
 
 
 
-<<<<<<< HEAD
-=======
 =======
 function deepEqual(obj1, obj2) {
     if (typeof obj1 !== "object" || typeof obj2 !== "object") {
@@ -48,4 +43,3 @@ users.forEach((key, value) => data.set(`${key}`, `${value}`));
 
 console.log(users);
 >>>>>>> 8c45176 (session 6)
->>>>>>> c124498734ffd4cc76136f00a53faddc44d34bf5

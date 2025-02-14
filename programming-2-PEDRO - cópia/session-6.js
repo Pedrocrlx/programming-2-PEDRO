@@ -1,7 +1,4 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c124498734ffd4cc76136f00a53faddc44d34bf5
 /* function fibonacci(n) {
     const memo = new Map();
     function fib(n) {
@@ -40,8 +37,6 @@ const nested = {
 };
 
 flattening(nested);
-<<<<<<< HEAD
-=======
 =======
 /* function fibonacci(n) {
     const memo = new Map();
@@ -82,4 +77,3 @@ const nested = {
 
 flattening(nested);
 >>>>>>> 8c45176 (session 6)
->>>>>>> c124498734ffd4cc76136f00a53faddc44d34bf5
