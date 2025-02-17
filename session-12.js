@@ -29,11 +29,11 @@ const result = endStart(10, 20);
 console.log(result.next().value);
  */
 function* startEnd(start, end) {
-    for (let i = 1; i <= start || i <= end; i++) {
-        yield console.log(i);
+    for (let i = start; i <= end; i++) {
+        yield i;
     }
 }
 
 const challenge = startEnd(5, 10);
 
-console.log(challenge.next().value);
+console.log([...challenge]);
