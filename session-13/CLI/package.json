@@ -1,0 +1,25 @@
+{
+  "name": "cli",
+  "version": "0.1.0",
+  "description": "My first CLI Tool",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "logger": "node src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "demo"
+  ],
+  "type": "module",
+  "author": "Pedro Santos <pedro_santos@eticalgarve.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "winston": "^3.17.0"
+  }
+}
