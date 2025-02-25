@@ -1,0 +1,12 @@
+{
+  "name": "streaming",
+  "version": "0.1.0",
+  "description": "Streaming and buffers",
+  "main": "stream.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pedro Santos",
+  "license": "MIT",
+  "type": "module"
+}

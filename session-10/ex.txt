@@ -1,0 +1,48 @@
+Predict and explain in a text file the outputs/errors of the code.
+
+------------------------------------------------------------------------------------------------
+console.log(hoistedVar); // Output: undefined
+var hoistedVar = "I'm hoisted!";
+
+hoistedFunc(); // Output: "I work!"
+function hoistedFunc() {
+  console.log("I work!");
+}
+
+No exemplo exposto acima o output será 'undefined', o 'VAR' e 'function' são keywords reservardas
+para o processo 'Hoisting', em que as keywords fazem alocação de memória logo quando a página for
+carregada, se inicializar antes de ser definida, o output da 'VAR' será 'undefined' e da 'function'
+será 'I work!'.
+
+------------------------------------------------------------------------------------------------
+notHoistedFunc(); // Error: notHoistedFunc is not a function
+var notHoistedFunc = () => console.log("I won't work");
+
+
+Neste caso a função não existe em memória porque é uma arrow function, não faz 'Hoisting',
+apenas em 'VAR' e 'function'.
+------------------------------------------------------------------------------------------------
+
+Challenge: (Optional) Rewrite the code using let/const and explain the differences.
+
+console.log(hoistedVar);
+const hoistedVar = "I'm hoisted!";
+
+hoistedFunc(); 
+function hoistedFunc() {
+    const hoistedVar = "I'm jorge!";
+    return console.log(hoistedVar);
+} 
+
+Neste caso a utilização do 'let' e 'const' para o processo 'Hoisting' não e funcional,
+apenas o 'VAR' e 'function' são keywords possíveis fazer 'Hoisting'.
+
+Output será um erro 'Cannot access 'hoistedVar' before initialization' independetemente 
+de ser 'let' ou 'const'.
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "name": "string",
+  "version": "0.1.0",
+  "description": "string Utils",
+  "main": "stringUtils.js",
+  "scripts": {
+    "test": "string"
+  },
+  "author": "Pedro Santos",
+  "license": "MIT"
+}

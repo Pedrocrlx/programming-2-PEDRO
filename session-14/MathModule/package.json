@@ -1,0 +1,12 @@
+{
+  "name": "easymaths",
+  "version": "0.1.0",
+  "description": "Easy Maths (SUM, AVERAGE, MEDIAN)",
+  "main": "math",
+  "scripts": {
+    "math": "node index.js"
+  },
+  "type": "module",
+  "author": "Pedro Santos",
+  "license": "MIT"
+}
