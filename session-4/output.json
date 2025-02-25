@@ -2,16 +2,11 @@
   {
     "name": "Alice",
     "email": "alice@example.com",
-    "age": "30  \r"
+    "age": 30
   },
   {
     "name": "Bob",
     "email": "bob@example.com",
-    "age": "25  \r"
-  },
-  {
-    "name": "Charlie",
-    "email": "charlie@example.com",
-    "age": "invalid"
+    "age": 25
   }
 ]
