@@ -1,7 +1,7 @@
 {
-  "name": "fastbrunch",
+  "name": "under30m",
   "version": "0.1.0",
-  "description": "FastBrunch",
+  "description": "Under30m",
   "main": "src/index.js",
   "scripts": {
     "get": "node src/index.js"
